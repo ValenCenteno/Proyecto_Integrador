@@ -1,6 +1,6 @@
 CREATE TABLE plantas (
-    id INT AUTO_INCREMENT,
+    id INT NOT NULL,
     nombre VARCHAR(100) NOT NULL,
-    humedad varchar(20),
+    humedad VARCHAR(20),
     PRIMARY KEY (id)
 );
