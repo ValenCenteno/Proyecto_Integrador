@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import tkinter as tk
 from tkinter import ttk, messagebox
 import mysql.connector
@@ -191,7 +190,7 @@ class CRUDApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = MainApp(root)
-=======
+
 import tkinter as tk
 from tkinter import ttk, messagebox
 import mysql.connector
@@ -404,5 +403,4 @@ class CRUDApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = MainApp(root)
->>>>>>> 0a9eae3 (Subiendo Repo)
     root.mainloop()
